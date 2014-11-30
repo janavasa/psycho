@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @day.date %>
+</p>
+
+<p>
+  <strong>Act1:</strong>
+  <%= @day.act1 %>
+</p>
+
+<p>
+  <strong>Act2:</strong>
+  <%= @day.act2 %>
+</p>
+
+<p>
+  <strong>Act3:</strong>
+  <%= @day.act3 %>
+</p>
+
+<p>
+  <strong>Morning:</strong>
+  <%= @day.morning %>
+</p>
+
+<p>
+  <strong>Sport:</strong>
+  <%= @day.sport %>
+</p>
+
+<p>
+  <strong>Meditation:</strong>
+  <%= @day.meditation %>
+</p>
+
+<p>
+  <strong>Mood:</strong>
+  <%= @day.mood %>
+</p>
+
+<%= link_to 'Edit', edit_day_path(@day) %> |
+<%= link_to 'Back', days_path %>

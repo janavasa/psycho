@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2014-11-30
+  act1: MyText
+  act2: MyText
+  act3: MyText
+  morning: false
+  sport: false
+  meditation: false
+  mood: MyString
+
+two:
+  date: 2014-11-30
+  act1: MyText
+  act2: MyText
+  act3: MyText
+  morning: false
+  sport: false
+  meditation: false
+  mood: MyString
